@@ -1,16 +1,17 @@
-# dictionary
+# Dictionary
 
-A new Flutter project.
+This Flutter project is built using principles of simplified Clean Architecture to structure the project. It utilizes Riverpod as the state management solution and Supabase for authentication and HTTP queries.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+Before running the project, make sure to execute the following commands:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Run `flutter pub get` to fetch the dependencies.
+2. Run `flutter pub run build_runner build` to load the environment variables.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Authentication
+
+You can create users with a minimum password length of 6 characters or use the test user credentials: `abc@gmail.com` and `admin1`.
+
+Feel free to explore and contribute to this project!
